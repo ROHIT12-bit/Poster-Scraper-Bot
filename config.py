@@ -7,7 +7,7 @@ load_dotenv("config.env", override=True)
 class Config:
     API_ID = int(os.environ.get("API_ID", 26047636))
     API_HASH = os.environ.get("API_HASH", "d8b1ed69ae1f937c5dd4d3cc8c8de440")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8329949144:AAHrlrH1qjh3XuxWQFeTwF6WpWYDuEFh-1w")
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://rohitreddyathuru:R6Co7MOjTYQOAqcq@cluster0.xrwjpl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "ebotz")
     OWNER_ID = int(os.environ.get("OWNER_ID", 8367080346))
